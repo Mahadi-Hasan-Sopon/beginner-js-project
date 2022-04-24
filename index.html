@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Project</title>
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+
+    <!--linking style sheet-->
+    <link rel="stylesheet" href="./assests/css/style.css">
+
+</head>
+
+<body>
+
+    <h1 class="text-black-50 text-center">Hello World
+        <i class="fas fa-flushed fa-bounce fa-fw"></i>
+        <i class="fa-solid fa-money-check-dollar fa-flip text-danger"
+            style="--fa-flip-y: 1; --fa-animation-duration: 2s;"></i>
+    </h1>
+
+    <div class="container-fluid">
+        <header>
+            <h1>Todo List</h1>
+        </header>
+
+        <form id="my-form">
+            <input type="text" name="todo-input" id="todo-input">
+            <button type="submit" class="todo-button">
+                <i class="fas fa-plus-square fa-xl"></i>
+            </button>
+            <div class="select">
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </form>
+
+        <div class="todo-container">
+            <ul class="todo-list">
+                
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <!-- bootstrap js bundle with popper link = -->
+    <script src="./assests/js/bootstrap.bundle.min.js"></script>
+
+    <!-- adding custom javaScript source -->
+    <script src="./assests/js/script.js"></script>
+</body>
+
+</html>
